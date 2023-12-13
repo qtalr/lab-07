@@ -37,7 +37,7 @@ The data you select to transform should be in a tidy format and may be one of th
 - The dataset you curated in Lab 06
 - Other (consult your instructor)
 
-### Organizing data
+### Transforming datasets
 
 In your curation process file,
 
