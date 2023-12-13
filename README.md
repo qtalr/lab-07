@@ -39,7 +39,7 @@ The data you select to transform should be in a tidy format and may be one of th
 
 ### Transforming datasets
 
-In your curation process file,
+In your transformation process file,
 
 1. add a section which provides a brief description of the curated dataset you are transforming. Include:
 
