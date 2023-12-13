@@ -31,9 +31,9 @@ If you are using an existing reproducible research project repository, open that
 
 Open a Quarto document in the process directory and name it accordingly (e.g., `3_transform.qmd`, `data_transform.qmd`, *etc.*).
 
-The data you select to curate should be of the unstructured or semi-structured variety and may be one of the following:
+The data you select to transform should be in a tidy format and may be one of the following:
 
--
+- State of the Union Addresses (SOTU) (see below for details)
 - The dataset you curated in Lab 06
 - Other (consult your instructor)
 
@@ -83,6 +83,28 @@ Some questions to consider:
 
 - Provide a link to your GitHub repository
 
+
+## State of the Union Addresses (SOTU) dataset
+
+The State of the Union Addresses (SOTU) dataset is a curated dataset of the State of the Union Addresses from 1790 to 2019. The dataset is available in the `quanteda.corpora` package. Install the package before continuing.
+
+```r
+install.packages("quanteda.corpora")
+```
+
+With the `quanteda.corpora` package installed, you can load the dataset into your R session with the following code:
+
+```r
+sotu_corpus <- quanteda.corpora::data_corpus_sotu
+```
+
+To convert the corpus to a data frame, you can use the `tidytext::tidy()` function:
+
+```r
+sotu_df <- tidytext::tidy(sotu_corpus)
+```
+
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+
