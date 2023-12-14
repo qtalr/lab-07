@@ -33,7 +33,7 @@ Open a Quarto document in the process directory and name it accordingly (e.g., `
 
 The data you select to transform should be in a tidy format and may be one of the following:
 
-- State of the Union Addresses (SOTU) (see below for details)
+- State of the Union Addresses (SOTU) (see [below for details](#state-of-the-union-addresses-sotu-dataset))
 - The dataset you curated in Lab 06
 - Other (consult your instructor)
 
