@@ -1,8 +1,6 @@
 # Lab 07: Transforming and documenting data
 
-<!--
-- [ ] Create dev container
--->
+
 
 ## Preparation
 
