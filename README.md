@@ -1,6 +1,4 @@
-# Lab 07: Transforming and documenting data
-
-
+# Lab 07: Dataset alchemy
 
 ## Preparation
 
