@@ -2,7 +2,7 @@
 
 ## Preparation
 
-- Read/ annotate: [Recipe \#7](https://qtalr.github.io/qtalrkit/articles/recipe-7.html). You can refer back to this document to help you at any point during this lab activity.
+- Read/ annotate: [Recipe \#7](https://qtalr.com/resources/recipes/recipe-07/). You can refer back to this document to help you at any point during this lab activity.
 
 ## Objectives
 
@@ -103,4 +103,3 @@ sotu_df <- tidytext::tidy(sotu_corpus)
 ## License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
-
